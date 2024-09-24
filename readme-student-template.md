@@ -17,14 +17,14 @@ Based on the warmup files ```echo-client.c``` and ```echo-server.c```, and accor
 ### Implementation and Testing
 Based on the course guidelines, the implementation consists of the following key functions:   
 
-* client
+####* client
 ```c
 socket() 
 connect() 
 send()   // send message to server
 read()  // receive message from server  
 ```
-* server
+####* server
 ```c
 socket()  
 setsockopt()  
@@ -39,9 +39,19 @@ while{
 Tested the implementation using: ```./echoserver``` & ```./echoclient -m messages```
 
 
-
-
-
-## Project Description
+## Project 1 Warmup (Transferfile)
+### Project Design  
+Based on the warmup files ```echo-client.c``` and ```echo-server.c```, and according to the project description, I modified several parts: 
+  
+* Message Length: The message will not be longer than 15 bytes.  
+* Server Response: The server sends the exact message back to the client.  
+* IP Support: The programs should support both IPv4 and IPv6.  
+* Server Termination: The echoserver should not terminate.  
+	Implemented two while(1) loops:  
+	Outer Loop: Continuously accepts new client connections.  
+	Inner Loop: Handles each client's requests.  
+ 
+### Implementation and Testing
+Based on the course guidelines, the implementati
 
 ## Project Description
