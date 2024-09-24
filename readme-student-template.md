@@ -4,7 +4,7 @@ This is tyang431 <2024 fall CS6200 Project 1> Readme file.
 
 ## Project 1 Warmup (Echo)
 ### Project Design  
-Base on Warmup file echo-client.c/echo-server.c and according to description  
+Base on Warmup file ```echo-client.c```/```echo-server.c``` and according to description  
   
 I modfied some parts:  
   
