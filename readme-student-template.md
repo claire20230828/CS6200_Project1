@@ -41,11 +41,11 @@ Tested the implementation using: ```./echoserver``` & ```./echoclient -m message
 
 ## Project 1 Warmup (Transferfile)
 ### Project Design  
-Based on the project description, server will open a assigned file, send to client and close connection. And client will also recevie data from server and write into a assigned file. 
+Based on the project description, the server will open an assigned file, send its contents to the client, and then close the connection. The client will receive the data from the server and write it into an assigned file.  
   
-* the bytes the server can read and send each time is not predetermined.  
-	-> using while loop and keep tracking how many bytes server has read and send
-  	-> remember to reset the read/write pointer for server  
+* The number of bytes the server can read and send at a time is not predetermined.  
+	-> Implement a while loop to continuously read from the file, track how many bytes have been read and sent, and handle partial reads and sends.  
+  	-> Ensure that the read/write pointer on the server is properly reset between operations using lseek()  
 * remember to check if there is any open file/tranfer error
  
 ### Implementation and Testing
@@ -53,9 +53,9 @@ Based on the project description, server will open a assigned file, send to clie
 ```c
 socket() 
 connect()  
-open()  //output file  
-recv()   // receive from server 
-write()  // record to output file  
+open()  //open output file  
+recv()   // receive data from server 
+write()  // record data to output file  
 ```
 #### * server
 ```c
@@ -64,11 +64,11 @@ setsockopt()
 bind()   
 listen()  
 while{  
-	accept() 	// check connection  
+	accept() 	// check and accept for client connection  
 	while{  
-		read()  //read in chunks
+		read()  //read file in chunks
 		while{
-			send()		//send in chunks
+			send()		//send data in chunks
 lseek()	 //reset the read/write pointer
 ```
 Tested the implementation using: ```./transferserver -f server_file``` & ```./transferclient -o output_file```
