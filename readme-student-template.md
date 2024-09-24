@@ -17,14 +17,14 @@ Based on the warmup files ```echo-client.c``` and ```echo-server.c```, and accor
 ### Implementation and Testing
 Based on the course guidelines, the implementation consists of the following key functions:   
 
-####* client
+#### * client
 ```c
 socket() 
 connect() 
 send()   // send message to server
 read()  // receive message from server  
 ```
-####* server
+#### * server
 ```c
 socket()  
 setsockopt()  
