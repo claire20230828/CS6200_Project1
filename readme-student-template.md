@@ -24,7 +24,8 @@ base on the course:
 socket() // to get a socket file descriptor
 connect() // make a connection session
 send()   // send message to server
-read()  // receive message from server    //C
+read()  // receive message from server
+//c
 
 
 
