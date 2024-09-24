@@ -31,7 +31,8 @@ read()  // receive message from server
 ```
 * server
 ```c
-socket() & setsockopt()  
+socket()  
+setsockopt()  
 bind()   
 listen()  
 while{  
