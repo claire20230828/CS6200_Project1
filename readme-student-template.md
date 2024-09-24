@@ -24,11 +24,25 @@ base on the course:
 
 * client
 ```c
-socket() // to get a socket file descriptor
-connect() // make a connection session
+socket() 
+connect() 
 send()   // send message to server
-read()  // receive message from server
+read()  // receive message from server  
 ```
+* server
+```c
+socket() & setsockopt()  
+bind()   
+listen()  
+while{  
+	accept() 	//connection  
+	while{  
+		read() // receive message from client  
+		write() // send message to client
+```
+
+Tested with ./echoserver & ./echoclient -m messages
+
 
 
 
