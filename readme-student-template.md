@@ -75,4 +75,4 @@ Tested the implementation using: ```./transferserver -f server_file``` & ```./tr
 
 ## Project Description
 
-![](https://github.com/claire20230828/CS6200_Project1/image/Part1_client.jpeg)
+![](/image/Part1_client.jpeg)
