@@ -80,7 +80,7 @@ Tested the implementation using: ```./transferserver -f server_file``` & ```./tr
 
 ## Project 1 Part1 (gfserver)
 ### Project Design 
-![](/image/Part_1 gfserver.jpeg)
+![](/image/Part_1%20gfserver.jpeg)
 
 
 ## Project 1 Part2 (multi-threaded gfclient)
