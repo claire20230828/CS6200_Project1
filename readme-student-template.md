@@ -91,3 +91,13 @@ Tested the implementation using: ```./transferserver -f server_file``` & ```./tr
 ## Project 1 Part2 (multi-threaded gfserver)
 ### Project Design 
 ![](/image/Part2_gfserver.jpeg)
+
+## References
+#### Pizza no @80 Client Hung Error
+https://piazza.com/class/lzwveb5orfe6by/post/80
+### (multi-threaded gfclient)
+#### Pizza no @81 Few gotchas for MT Project 1 client (part 2)
+https://piazza.com/class/lzwveb5orfe6by/post/81
+### (multi-threaded gfserver)
+#### Pizza no @549 My notes on the server portion 
+https://piazza.com/class/lzwveb5orfe6by/post/549
