@@ -73,6 +73,21 @@ lseek()	 //reset the read/write pointer
 ```
 Tested the implementation using: ```./transferserver -f server_file``` & ```./transferclient -o output_file```
 
-## Project Description
+## Project 1 Part1 (gfclient)
+### Project Design 
+![](/image/Part1_client.jpeg)  
 
-![](/image/Part1_client.jpeg)
+
+## Project 1 Part1 (gfserver)
+### Project Design 
+![](/image/Part_1 gfserver.jpeg)
+
+
+## Project 1 Part2 (multi-threaded gfclient)
+### Project Design 
+![](/image/Part2_gfclient.jpeg)
+
+
+## Project 1 Part2 (multi-threaded gfserver)
+### Project Design 
+![](/image/Part2_gfserver.jpeg)
