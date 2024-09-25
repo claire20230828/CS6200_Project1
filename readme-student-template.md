@@ -74,3 +74,5 @@ lseek()	 //reset the read/write pointer
 Tested the implementation using: ```./transferserver -f server_file``` & ```./transferclient -o output_file```
 
 ## Project Description
+
+![](https://github.com/claire20230828/CS6200_Project1/image/Part1_client.jpeg)
